@@ -136,12 +136,17 @@ namespace QuanLiBanHang.Controllers
             {
                 return NotFound();
             }
+            var categories = await _categoryRepository.GetAllAsync();
             return View(product);
         }
         // Xử lý xóa sản phẩm
         [HttpPost, ActionName("Delete")]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id, Product product)
         {
+        if (id != product.Id)
+            {
+                return NotFound();
+            }
             await _productRepository.DeleteAsync(id);
             return RedirectToAction(nameof(Index));
         }
