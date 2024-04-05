@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuanLiBanHang")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be0bc93f578a01cde10f379b5dc469265bbce760")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+180887d8a38b23c3ca7bccd5e36bebbcdb9f4671")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuanLiBanHang")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuanLiBanHang")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

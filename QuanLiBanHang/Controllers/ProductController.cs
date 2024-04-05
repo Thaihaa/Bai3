@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc;
 using QuanLiBanHang.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace QuanLiBanHang.Controllers
 {
+    //[Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class ProductController : Controller
     {
 

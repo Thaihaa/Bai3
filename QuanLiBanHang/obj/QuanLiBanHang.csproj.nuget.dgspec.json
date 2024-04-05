@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Lập trình web\\QuanLiBanHang\\QuanLiBanHang.csproj": {}
+    "M:\\NguyenThaiHa\\QuanLiBanHang\\QuanLiBanHang.csproj": {}
   },
   "projects": {
-    "D:\\Lập trình web\\QuanLiBanHang\\QuanLiBanHang.csproj": {
+    "M:\\NguyenThaiHa\\QuanLiBanHang\\QuanLiBanHang.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Lập trình web\\QuanLiBanHang\\QuanLiBanHang.csproj",
+        "projectUniqueName": "M:\\NguyenThaiHa\\QuanLiBanHang\\QuanLiBanHang.csproj",
         "projectName": "QuanLiBanHang",
-        "projectPath": "D:\\Lập trình web\\QuanLiBanHang\\QuanLiBanHang.csproj",
-        "packagesPath": "C:\\Users\\hatha\\.nuget\\packages\\",
-        "outputPath": "D:\\Lập trình web\\QuanLiBanHang\\obj\\",
+        "projectPath": "M:\\NguyenThaiHa\\QuanLiBanHang\\QuanLiBanHang.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "M:\\NguyenThaiHa\\QuanLiBanHang\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hatha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,17 +34,24 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.3, )"
@@ -53,9 +60,17 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[8.0.3, )"
             },
@@ -83,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
